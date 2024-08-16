@@ -2,11 +2,13 @@
     --header-footer-colour: #1A2A38;
     --background-colour: #4D7EA8; 
     --secondary-colour: #8FAFCC;
+    --text-background: #CCAC8F;
     
 }
 
 body {
     margin: 0;
+    min-width: 320px;
 }
 .main-body {
     background-color: var(--background-colour);
@@ -53,10 +55,14 @@ header {
     color: var(--secondary-colour);
     font-size: 1.3rem;
     align-self: center;
+    text-decoration: none;
 }
 
 nav {
+    box-sizing: border-box;
     width: 100%;
+    padding: 0% 1% 1%;
+    
     
     display: flex;
     justify-content: space-between;
@@ -65,8 +71,11 @@ nav {
 nav a {
     color: var(--secondary-colour);
     font-size: 1.2rem;
-    
+    text-decoration: none;
+    background-color: #fa7c05;
     padding: 0 1%;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 main {
