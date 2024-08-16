@@ -98,4 +98,35 @@ footer a {
     color: var(--secondary-colour);
 }
 
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    .header-home-links {
+        margin: 0;
+        padding-bottom: 1% ;
+        padding-left: 1%;
+
+    }
+
+    footer {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        justify-content: center;
+    }
+
+    #git-link {
+        margin: 0 5%;
+    }
+}
 
