@@ -1,3 +1,9 @@
+.homepage-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main img {
     width: 400px; 
     max-width: 100%;
