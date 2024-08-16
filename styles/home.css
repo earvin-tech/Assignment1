@@ -5,8 +5,8 @@
 }
 
 main img {
-    width: 400px; 
-    max-width: 100%;
+    box-sizing: border-box;
+    width: 300px;
     margin-bottom: 5%;
     border: 3px solid black;
     border-radius: 10px;
@@ -23,7 +23,8 @@ h1 {
 }
 
 .main-text {
-    max-width: 400px;
+    box-sizing: border-box;
+    width: 300px;
     border: 3px solid black; 
     border-radius: 10px;
     text-align: center;
