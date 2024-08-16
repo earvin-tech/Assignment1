@@ -1,0 +1,13 @@
+main img {
+    width: 400px; 
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+
+.main-text {
+    border: 1px solid black; 
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 10% 10%;
+}
