@@ -49,6 +49,9 @@ h1 {
     .main-text {
         margin: 0;
         height: 398.4px;
+
+        display: flex;
+        align-items: center;
     }
 
     main h1 {
