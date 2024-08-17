@@ -3,7 +3,8 @@
     --background-colour: #4D7EA8; 
     --secondary-colour: #8FAFCC;
     --text-background: #CCAC8F;
-    margin: 0;
+    
+
 }
 
 body {
@@ -54,6 +55,7 @@ header {
 .name-link {
     color: var(--secondary-colour);
     font-size: 1.3rem;
+    font-family: Barlow Condensed;
     align-self: center;
     text-decoration: none;
 }
@@ -71,6 +73,7 @@ nav {
 nav a {
     color: var(--secondary-colour);
     font-size: 1.2rem;
+    font-family: Barlow Condensed;
     text-decoration: none;
     background-color: #fa7c05;
     padding: 0 1%;
