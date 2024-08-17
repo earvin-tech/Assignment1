@@ -1,8 +1,9 @@
 :root {
-    --header-footer-colour: #1A2A38;
+    --header-footer-colour: #13293D;
     --background-colour: #4D7EA8; 
-    --secondary-colour: #8FAFCC;
+    --secondary-colour: #E8F1F2;
     --text-background: #CCAC8F;
+    --border-colour: #FFD700;
     
 
 }
@@ -75,7 +76,7 @@ nav a {
     font-size: 1.2rem;
     font-family: Barlow Condensed;
     text-decoration: none;
-    background-color: #fa7c05;
+    /* background-color: ; */
     padding: 0 1%;
     border: 2px solid black;
     border-radius: 5px;

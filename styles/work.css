@@ -1,0 +1,9 @@
+.work-container {
+    display: flex;
+}
+
+.work-div {
+    height: 25%;
+    width: 50%;
+    background-color: aqua;
+}
