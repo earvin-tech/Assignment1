@@ -50,6 +50,10 @@ h1 {
         margin: 0;
         height: 398.4px;
     }
+
+    main h1 {
+        margin-bottom: 5%;
+    }
 }
 
     

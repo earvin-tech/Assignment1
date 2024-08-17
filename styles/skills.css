@@ -8,6 +8,8 @@
 .skill-div {
     background-color: aqua;
     width: 80%;
+    border: 5px solid black;
+    border-radius: 10px;
 
     display: flex;
     flex-direction: column;
@@ -22,6 +24,8 @@ h1 {
 
 .skill-div img {
     width: 80%;
+    border: 3px solid black;
+    border-radius: 5px;
     
     
 }
