@@ -76,9 +76,7 @@ nav a {
     font-size: 1.2rem;
     font-family: Barlow Condensed;
     text-decoration: none;
-    /* background-color: ; */
     padding: 0 1%;
-    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -109,7 +107,7 @@ footer a {
     }
 
     nav {
-        width: 50%;
+        width: 40%;
     }
 
     .header-home-links {

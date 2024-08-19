@@ -5,8 +5,10 @@ h1 {
 
 
 .about-text {
+    box-sizing: border-box;
     width: 30%;
     border: 5px solid var(--border-colour);
+    padding: 3%;
     border-radius: 5px;
 }
 
@@ -14,19 +16,50 @@ h1 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    row-gap: 100px;
     align-items: center;
     padding: 4%;
 }
 
 .about-container img {
+    box-sizing: border-box;
     width: 30%;
     border: 5px solid var(--border-colour);
     border-radius: 5px;
 }
 
+
 .about-image {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+.about-image {
+    width: 30vw;
+    order: -1;
+}
+
+.about-image img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.about-text {
+    width: 30vw;
+    aspect-ratio: 1/1;
+    padding: 5%;
+}
+
+.about-container {
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+   
 }
