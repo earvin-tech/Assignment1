@@ -1,9 +1,23 @@
+main{
+    min-height: 100vh;
+}
 .work-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    row-gap: 3%;
+}
+
+h2 {
+    text-align: center;
 }
 
 .work-div {
-    height: 25%;
-    width: 50%;
+    height: 10vh;
+    width: 50vw;
     background-color: aqua;
 }
