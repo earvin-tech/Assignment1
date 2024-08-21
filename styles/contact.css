@@ -1,18 +1,9 @@
 main {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
-    /* min-height: 100vw; */
-    row-gap: 10vh;
-    /* justify-self: stretch; */
+    row-gap: 15vh;
 }
-
-/* h2 {
-    text-align: center;
-    justify-self: flex-start;
-    
-} */
 
 .form-container {
     display: flex;
@@ -22,46 +13,41 @@ main {
     background-color: gray;
     border: 5px solid black;
     border-radius: 5px;
-    width: 50%;
+    width: 40%;
     min-width: 220px;
-    /* max-width: 100%; */
+    max-width: 100%;
     padding: 5%;
 }
 
 form {
+    box-sizing: border-box;
     background-color: gray;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: auto;
     
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
-    /* margin: 3% auto auto; */
     align-items: flex-start;
 
 }
 
-.form-element label {
-    align-self: center;
-}
 
 .form-element textarea {
-    box-sizing: border-box;
     border: 1px solid black;
     border-radius: 5px;
-    align-self: center;
     resize: vertical;
-    /* max-height: 30%; */
 
 
 }
 
-form input {
+.form-element input {
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -78,7 +64,7 @@ form button {
 
 @media screen and (min-width: 768px) {
     .form-container {
-        width: 30%;
+        width: 20%;
     }
 
     form {
@@ -94,6 +80,7 @@ form button {
 
     .form-element label {
         margin-right: 20%;
+        text-align: left;
     }
 }
 

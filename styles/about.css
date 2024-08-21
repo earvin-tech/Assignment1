@@ -8,9 +8,11 @@ h1 {
     box-sizing: border-box;
     background-color: gray;
     width: 70vw;
+    max-height: 30vw;
     border: 5px solid black;
     border-radius: 5px;
     padding: 2%;
+    overflow-y: auto;
 }
 
 .about-container {
