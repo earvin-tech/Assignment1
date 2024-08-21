@@ -1,25 +1,38 @@
 main{
     min-height: 100vh;
+   
 }
 .work-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
+    min-height: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
-    row-gap: 3%;
+    /* row-gap: 3%; */
 }
 
 h2 {
     text-align: center;
 }
 
+h3 {
+    margin-block: 0;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-block: 0;
+}
+
 .work-div {
-    height: 10vh;
-    width: 50vw;
+    /* height: 33vh; */
+    width: 60vw;
     background-color: gray;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 5px; 
+    padding: 2%;
+    margin-bottom: 3%;
 }

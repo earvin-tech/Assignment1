@@ -1,18 +1,20 @@
 main {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-around; */
     align-items: center;
-    height: 100vw;
-    overflow: hidden;
+    /* min-height: 100vw; */
+    row-gap: 10vh;
+    /* justify-self: stretch; */
 }
 
-h2 {
+/* h2 {
     text-align: center;
     justify-self: flex-start;
     
-}
+} */
 
-/* .form-container {
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,27 +22,27 @@ h2 {
     background-color: gray;
     border: 5px solid black;
     border-radius: 5px;
-    width: 60vw;
-    height: 70%;
+    width: 50%;
+    min-width: 220px;
+    /* max-width: 100%; */
     padding: 5%;
-} */
+}
 
 form {
     background-color: gray;
-    border: 5px solid black;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    /* width: 40%; */
-    min-height: 50vh;
-    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
-    margin: 3% auto auto;
+    /* margin: 3% auto auto; */
+    align-items: flex-start;
 
 }
 
@@ -54,6 +56,8 @@ form {
     border-radius: 5px;
     align-self: center;
     resize: vertical;
+    /* max-height: 30%; */
+
 
 }
 
@@ -73,6 +77,10 @@ form button {
 }
 
 @media screen and (min-width: 768px) {
+    .form-container {
+        width: 30%;
+    }
+
     form {
         width: 50%;
         align-items: center;

@@ -20,12 +20,12 @@
 
 h1 {
     text-align: center;
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
 }
 
-h2 {
+/* h2 {
     font-family: Barlow Condensed;
-}
+} */
 
 .skill-div img {
     width: 80%;
@@ -38,5 +38,5 @@ h2 {
 
 p {
     margin-block-start: 0;
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
 }

@@ -1,5 +1,5 @@
 h1 {
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
     text-align: center;
 }
 
@@ -9,8 +9,8 @@ h1 {
     background-color: gray;
     width: 70vw;
     border: 5px solid black;
-    padding: 3%;
     border-radius: 5px;
+    padding: 2%;
 }
 
 .about-container {
@@ -24,8 +24,8 @@ h1 {
 
 .about-container img {
     box-sizing: border-box;
-    width: 70vw;
     border: 5px solid black;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -34,6 +34,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70vw;
+
 }
 
 
@@ -51,8 +53,7 @@ h1 {
 
 .about-text {
     width: 30vw;
-    aspect-ratio: 1/1;
-    padding: 5%;
+    padding: 2%;
 }
 
 .about-container {
@@ -62,5 +63,4 @@ h1 {
     align-items: center;
 }
 
-   
 }

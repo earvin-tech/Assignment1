@@ -13,8 +13,25 @@ The header contains an icon and name which both link back to the homepage. It al
 
 This is the HTML code for the header:
 
-![HTML screenshot for header](./code_scs/header_css1_scs.png) 
+```HTML
+<header>
+    <div class="header-home-links">
+        <a href="#" class="icon-link">
+            <img src="/images/iconPic2.png" alt="Icon Image">
+        </a>
+        <a href="#" class="name-link">
+            Earvin Tumpao
+        </a>
+    </div>
 
+    <nav>
+        <a href="pages/about.html">About</a>
+        <a href="pages/skills.html">Skills</a>
+        <a href="pages/work.html">Work</a>
+        <a href="pages/contact.html">Contact</a>
+    </nav>
+</header>
+```
 And this is the CSS styling for the header: 
 
 ![CSS screenshot for header 1](./code_scs/header_css1_scs.png)
