@@ -19,5 +19,7 @@ h2 {
 .work-div {
     height: 10vh;
     width: 50vw;
-    background-color: aqua;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 5px;
 }

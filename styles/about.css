@@ -6,8 +6,9 @@ h1 {
 
 .about-text {
     box-sizing: border-box;
-    width: 30%;
-    border: 5px solid var(--border-colour);
+    background-color: gray;
+    width: 70vw;
+    border: 5px solid black;
     padding: 3%;
     border-radius: 5px;
 }
@@ -23,8 +24,8 @@ h1 {
 
 .about-container img {
     box-sizing: border-box;
-    width: 30%;
-    border: 5px solid var(--border-colour);
+    width: 70vw;
+    border: 5px solid black;
     border-radius: 5px;
 }
 
