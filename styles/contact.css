@@ -50,7 +50,17 @@ form {
 .form-element input {
     border: 1px solid black;
     border-radius: 5px;
+
 }
+
+/* .form-element label {
+    width: 100%;
+    text-align: right;
+} */
+
+/* .form-element input:focus {
+    box-shadow: black;
+} */
 
 form button {
     margin: 5% auto 3%;
@@ -59,7 +69,14 @@ form button {
     width: 30%;
     text-align: center;
     min-width: 64px;
+
+    transition: .2s;
     
+}
+
+button:hover {
+    background-color: rgb(83, 83, 83);
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
