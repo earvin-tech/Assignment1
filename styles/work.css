@@ -10,10 +10,9 @@ main{
     min-height: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
-    /* row-gap: 3%; */
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
@@ -28,7 +27,6 @@ h4 {
 }
 
 .work-div {
-    /* height: 33vh; */
     width: 60vw;
     background-color: gray;
     border: 5px solid black;
