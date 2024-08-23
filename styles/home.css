@@ -4,12 +4,7 @@
     align-items: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-main img {
+.homepage-div img {
     box-sizing: border-box;
     width: 300px;
     margin-bottom: 5%;
@@ -19,7 +14,7 @@ main img {
     transition: .5s;
 }
 
-main img:hover {
+.homepage-div img:hover {
     transform: scale(1.1);
 } 
 
@@ -50,7 +45,7 @@ main img:hover {
         align-items: center;
     }
 
-    main img {
+    .homepage-div img {
         margin: 0;
         margin-right: 15%;
     }
@@ -61,10 +56,6 @@ main img:hover {
 
         display: flex;
         align-items: center;
-    }
-
-    main h1 {
-        margin-bottom: 2.5%;
     }
 }
 

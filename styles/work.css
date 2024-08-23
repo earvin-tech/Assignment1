@@ -1,7 +1,3 @@
-main{
-    min-height: 100vh;
-   
-}
 .work-container {
     display: flex;
     flex-direction: column;
