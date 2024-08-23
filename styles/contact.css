@@ -1,0 +1,39 @@
+main {
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    /* background-color: purple; */
+    width: 50%;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.form-element input {
+    width: 50%;
+}
+
+.form-element textarea {
+    width: 50%;
+    resize: vertical;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto 2.5%;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 2% 0;
+}
+
+/* Updated contact sheet */
