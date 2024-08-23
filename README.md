@@ -11,11 +11,21 @@ The homepage is the main page the user will see when accessing the site. The hea
 ### Header 
 The header contains an icon and name which both link back to the homepage. It also contains a nav bar that has links to the other pages on the site. 
 
+On mobile view the icon and name links will be centered on top of the nav bar. The nav bar will be spread out across the header evenly. On large screen sizes the nav bar will only stretch across the right side of the header and the icon and name links will be on the left side of the header but aligned on the same row as the nav bar.
+
 ### Footer 
 The footer contains 3 icons which link to my social media pages, LinkedIn, Github, and Instagram. 
 
-### Main content 
+On the different screen sizes the social media links will be spread out differently: 
+
+- Mobile view: Links are spread out with even space between. 
+- Tablet view: Similar to the mobile view but links closer to center with space around the two outer links. 
+- Desktop view: The links are much more centered but with a little space between the links.
+
+### Main content of Homepage: Main Photo and site overview
 The main content consists of a main photo of myself and a brief overview of the purpose and content of the website and it's pages.
+
+On the mobile view the main photo and overview are aligned in a column and in a row on larger screen sizes.
 
 Below is the HTML code and CSS styling for the homepage: 
 
@@ -305,7 +315,7 @@ Note: the main content of the homepage is in it's own seperate stylesheet.
 
 The About page outlines more about myself such as my hobbies and interests. It simply contains a photo and some text describing me.
 
-### Photo and Overview 
+### Main content of About Page: Photo and Overview
 The photo and text overview are arranged in a column in when in mobile view and in a row in larger screen sizes. Both will also enlarge by 10% in size when hovering over them.
 
 Below is the HTML and CSS code for the about page:
@@ -384,7 +394,6 @@ Below is the HTML and CSS code for the about page:
 
 ```CSS
 h1 {
-    /* font-family: Barlow Condensed; */
     text-align: center;
 }
 
@@ -464,5 +473,6 @@ h1 {
 
 }
 ```
-
+## Skills 
+This page outlines my skills as a web developer. It contains 3 sections outlining a skill in each. In mobile view they are aligned in a column and in larger screen sizes all 3 are on a single row.
 
