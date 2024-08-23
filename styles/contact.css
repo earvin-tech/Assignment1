@@ -6,9 +6,12 @@ h1 {
     text-align: center;
 }
 
-.form-container {
-    /* background-color: purple; */
+form {
+    background-color: gray;
     width: 50%;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 5px;
 }
 
 .form-element {
@@ -20,11 +23,22 @@ h1 {
 
 .form-element input {
     width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .form-element textarea {
     width: 50%;
     resize: vertical;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.form-element button {
+    border: 1px solid black;
+    border-radius: 5px;
+
 }
 
 /* Updated contact sheet */
