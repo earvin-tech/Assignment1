@@ -38,6 +38,12 @@ h1 {
     align-items: center;
     width: 70vw;
 
+    transition: .5s;
+
+}
+
+.about-image:hover {
+    transform: scale(1.1);
 }
 
 

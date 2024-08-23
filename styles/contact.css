@@ -27,13 +27,4 @@ h1 {
     resize: vertical;
 }
 
-form {
-    width: 50%;
-    margin: 0 auto 2.5%;
-    background-color: gray;
-    border: 5px solid black;
-    border-radius: 5px;
-    padding: 2% 0;
-}
-
 /* Updated contact sheet */
