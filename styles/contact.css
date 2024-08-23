@@ -1,108 +1,30 @@
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 15vh;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
 }
 
 .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: gray;
-    border: 5px solid black;
-    border-radius: 5px;
-    width: 40%;
-    min-width: 220px;
-    max-width: 100%;
-    padding: 5%;
-}
-
-form {
-    box-sizing: border-box;
-    background-color: gray;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: auto;
-    
+    /* background-color: purple; */
+    width: 50%;
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-
-}
-
-
-.form-element textarea {
-    border: 1px solid black;
-    border-radius: 5px;
-    resize: vertical;
-
-
+    align-items: center;
+    margin-bottom: 2%;
 }
 
 .form-element input {
-    border: 1px solid black;
-    border-radius: 5px;
-
+    width: 50%;
 }
 
-/* .form-element label {
-    width: 100%;
-    text-align: right;
-} */
-
-/* .form-element input:focus {
-    box-shadow: black;
-} */
-
-form button {
-    margin: 5% auto 3%;
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 30%;
-    text-align: center;
-    min-width: 64px;
-
-    transition: .2s;
-    
+.form-element textarea {
+    width: 50%;
+    resize: vertical;
 }
 
-button:hover {
-    background-color: rgb(83, 83, 83);
-    color: white;
-}
-
-@media screen and (min-width: 768px) {
-    .form-container {
-        width: 20%;
-    }
-
-    form {
-        width: 50%;
-        align-items: center;
-    }
-
-    .form-element {
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 3%;
-    }
-
-    .form-element label {
-        margin-right: 20%;
-        text-align: left;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    form {
-        width: 40%;
-    }
-}
+/* Updated contact sheet */
