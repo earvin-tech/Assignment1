@@ -4,6 +4,7 @@ main {
 
 h1 {
     text-align: center;
+    margin-bottom: 15%;
 }
 
 form {
@@ -27,6 +28,10 @@ form {
     border-radius: 5px;
 }
 
+.form-element input:focus {
+    box-shadow: 0px 1px 23px 6px rgba(0,0,0,0.66);
+}
+
 .form-element textarea {
     width: 50%;
     resize: vertical;
@@ -35,10 +40,21 @@ form {
 
 }
 
+.form-element textarea:focus {
+    box-shadow: 0px 1px 23px 6px rgba(0,0,0,0.66);
+
+}
+
 .form-element button {
     border: 1px solid black;
     border-radius: 5px;
 
+    transition: .2s;
+
 }
 
-/* Updated contact sheet */
+.form-element button:hover {
+    background-color: gray;
+    color: white;
+}
+
