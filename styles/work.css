@@ -12,10 +12,6 @@ main{
     margin-bottom: 10%;
 }
 
-h1 {
-    text-align: center;
-}
-
 h3 {
     margin-block: 0;
     text-align: center;
@@ -26,7 +22,7 @@ h4 {
     margin-block: 0;
 }
 
-.work-div {
+article {
     width: 60vw;
     background-color: gray;
     border: 5px solid black;

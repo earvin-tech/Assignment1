@@ -2,11 +2,6 @@
     --header-footer-colour: #13293D;
     --background-colour: #4D7EA8; 
     --secondary-colour: #E8F1F2;
-    --text-background: #CCAC8F;
-    --border-colour: #FFD700;
-
-    
-
 }
 
 body {
@@ -16,6 +11,11 @@ body {
     font-size: auto;
 
 }
+
+h1 {
+    text-align: center;
+}
+
 .main-body {
     background-color: var(--background-colour);
     max-width: 100vw;

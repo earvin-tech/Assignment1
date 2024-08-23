@@ -23,9 +23,7 @@ main img:hover {
     transform: scale(1.1);
 } 
 
-h1 {
-    text-align: center;
-}
+
 
 .main-text {
     box-sizing: border-box;

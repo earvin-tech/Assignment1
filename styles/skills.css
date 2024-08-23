@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.skill-div {
+article {
     background-color: gray;
     width: 80%;
     border: 5px solid black;
@@ -18,12 +18,8 @@
     padding: 2.5%;
 }
 
-h1 {
-    text-align: center;
-}
 
-
-.skill-div img {
+article img {
     width: 80%;
     border: 3px solid black;
     border-radius: 5px;
@@ -31,7 +27,7 @@ h1 {
     transition: .7s;
 }
 
-.skill-div img:hover {
+article img:hover {
     transform: scale(2);
 }
 
@@ -48,7 +44,7 @@ p {
         margin-right: auto;
     }
 
-    .skill-div {
+    article {
         width: 40%;
         min-height: 600px;
 
