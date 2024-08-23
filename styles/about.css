@@ -8,6 +8,7 @@
     border-radius: 5px;
     padding: 5%;
     overflow-y: auto;
+    margin-bottom: 10%;
 
     transition: .5s;
 }
@@ -17,12 +18,12 @@
 }
 
 .about-container {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    row-gap: 100px;
     align-items: center;
-    padding: 4%;
+    row-gap: 10px;
+    margin-bottom: 15%;
+
 }
 
 .about-container img {
@@ -63,6 +64,7 @@
 .about-text {
     width: 30vw;
     padding: 2%;
+    margin: 0;
 }
 
 .about-container {
@@ -70,6 +72,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 }
