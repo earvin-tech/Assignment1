@@ -4,7 +4,11 @@ main {
 
 h1 {
     text-align: center;
+}
+
+p {
     margin-bottom: 8%;
+    text-align: center;
 }
 
 form {
@@ -38,7 +42,6 @@ form {
     resize: vertical;
     border: 1px solid black;
     border-radius: 5px;
-
 }
 
 .form-element textarea:focus {
