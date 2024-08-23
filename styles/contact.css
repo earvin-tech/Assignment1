@@ -1,7 +1,3 @@
-main {
-    min-height: 100vh;
-}
-
 h1 {
     text-align: center;
 }
@@ -58,7 +54,7 @@ form {
 }
 
 .form-element button:hover {
-    background-color: gray;
+    background-color: rgb(46, 43, 43);
     color: white;
 }
 
