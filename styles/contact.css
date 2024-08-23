@@ -4,22 +4,23 @@ main {
 
 h1 {
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
 }
 
 form {
     background-color: gray;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     border: 5px solid black;
     border-radius: 5px;
+    padding: 5% 0;
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .form-element input {
@@ -58,3 +59,32 @@ form {
     color: white;
 }
 
+.bottom-form-element {
+    margin-bottom: 15%;
+}
+
+@media screen and (min-width: 768px) {
+    .form-element {
+        flex-direction: row;
+    }
+
+    .form-element label {
+        width: 12%;
+        text-align: right;
+
+    }
+
+    .form-element input {
+        margin-left: 2%;
+        width: 80%;
+    }
+
+    .form-element textarea {
+        margin-left: 2%;
+        width: 80%;
+    }
+
+    button {
+        margin: auto 
+    }
+}
