@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.earvintumpao.dev/sitemap.xml
